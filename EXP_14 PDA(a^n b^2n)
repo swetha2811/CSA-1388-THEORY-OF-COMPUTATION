@@ -1,0 +1,153 @@
+Automaton Simulator, v1.0
+dpda {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {92 124}
+	}
+	state {
+		coord {242 52}
+	}
+	state {
+		coord {438 124}
+	}
+	state {
+		final {yes}
+		coord {623 107}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.6747409422235525}
+		action {push a}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		stacktop {a}
+		action {pop}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {2.356194490192345}
+		action {push a}
+	}
+	edge 1 1 {
+		transits {}
+		offset {2.356194490192345}
+	}
+	edge 2 1 {
+		transits {b}
+		offset {0.5235987755982988}
+		stacktop {a}
+	}
+	edge 2 3 {
+		transits {b}
+		offset {0.5235987755982988}
+		action {pop}
+	}
+	label {
+		text {Q0}
+		font {SansSerif 12 -}
+		coord {90 131}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {263 128}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {246 128}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {440 121}
+	}
+	label {
+		text {Q2}
+		font {SansSerif 12 -}
+		coord {427 124}
+	}
+	label {
+		text {Q1}
+		font {SansSerif 12 -}
+		coord {235 48}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {818 175}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {565 31}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {354 44}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {565 243}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {309 133}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {318 129}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {335 124}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {335 124}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {500 73}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {560 67}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {549 65}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {541 74}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1017 123}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {149 10}
+	}
+	label {
+		text {Q3}
+		font {SansSerif 12 -}
+		coord {614 110}
+	}
+}
